@@ -1,0 +1,97 @@
+/* TODO: put your application-specific CSS here */
+.main-icon {
+  width: 32px;
+  height: 32px;
+  background :url(../PasteIcon32_32.png) center center no-repeat !important;
+}
+
+.main-icon {
+  margin: 9px 11px 0 11px;
+  float: left;
+}
+
+.list-title-format {  
+  margin: 2px 14px 4px 14px; 
+      font-size: 18px;
+	width: 95%;     
+} 
+
+.list-title {  
+  margin: 2px 14px 4px 14px; 
+      font-size: 20px;
+	width: 95%;     
+} 
+
+.list-detail {  
+  margin: 0px 14px 6px 14px; 
+  padding-bottom: 5px;
+    font-size: 14px;
+	width: 95%;  
+} 
+
+.paste-code {
+  height: 225px !important;
+
+}
+
+.palm-menu-icon.bookmarks {
+		background-image: url(../images/menu-icon-bookmarks.png);
+}
+
+.palm-menu-icon.history {
+		background-image: url(../images/menu-icon-history.png);
+}
+
+.palm-menu-icon.vip {
+		background-image: url(../images/menu-icon-make-vip.png);
+}
+
+.palm-menu-icon.edit-contact {
+		background-image: url(../images/menu-icon-edit-contact.png);
+}
+
+.palm-menu-icon.remove-vip{
+		background-image: url(../images/menu-icon-remove-vip.png);
+}
+
+.palm-menu-icon.new-contact {
+		background-image: url(../images/menu-icon-new-contact.png);
+}
+
+.palm-menu-icon.edit-profile {
+		background-image: url(../images/menu-icon-edit-profile.png);
+}
+
+.scene-fade-top{
+  position: fixed; 
+  top: 0; 
+  z-index: 11000;
+  height: 30px; 
+  width: 100%;
+  background: url(../images/palm-default/scrollFade-top.png) top center repeat-x;
+  -webkit-palm-mouse-target: ignore;
+}
+.scene-fade-bottom{
+  position: fixed; 
+  bottom: 0;
+  z-index: 11000;
+  height: 30px; 
+  width: 100%;
+  background: url(../images/palm-default/scrollFade-bottom.png) bottom center repeat-x;
+  -webkit-palm-mouse-target: ignore;
+}
+
+body.palm-dark .scene-fade-top{
+  background: url(../images/palm-dark/scrollFade-top.png) top center repeat-x;
+}
+body.palm-dark .scene-fade-bottom{
+  background: url(../images/palm-dark/scrollFade-bottom.png) bottom center repeat-x;
+}
+
+.palm-menu-icon.indeterminate-stop {
+   background-image: url('../images/indeterminate-progress.png');
+   width: 48px;
+   height: 48px;
+   left: -24px;
+   margin-top: -8px;
+}

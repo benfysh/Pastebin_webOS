@@ -1,0 +1,42 @@
+{
+	"id": "com.milclobe.pastebin",
+	"version": "2.1.0",
+	"vendor": "milclobe",
+	"type": "web",
+	"main": "index.html",
+	"title": "Pastebin",
+	"icon": "PasteIcon48_48.png",
+	"smallicon": "PasteIcon32_32.png",
+	"splashicon": "PasteIcon128_128.png",	
+	"splashBackground":"images/splash-dark.png",
+	"copyright":"Copyright &copy; 2011 milclobe",
+        "support": {
+		 "url": "http://www.milclobe.com",
+          "email": {
+            "address": "support@milclobe.com",
+            "subject": "Pastebin Support"
+	},
+	  "resources": [
+	{
+	    "type": "scene",
+	    "label": "FAQ",
+	    "sceneName": "faq"
+	},
+	{
+	    "type": "scene",
+	    "label": "Fields",
+	    "sceneName": "fields"
+	},
+	{
+	    "type": "scene",
+	    "label": "About",
+	    "sceneName": "about"
+	},
+	{
+	    "type": "web",
+	    "label": "Pastebin.com",
+	    "url": "http://pastebin.com/faq"
+	}
+	]
+	}
+}

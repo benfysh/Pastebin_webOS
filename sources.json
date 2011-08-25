@@ -1,0 +1,48 @@
+[
+    {"source": "app/models/metrix.js"},
+    {"source": "app/helpers/app-helper.js"},	
+    {"source": "app/scripts/cupcakes.js"},
+    {"source": "app/scripts/MX_XML.js"},
+    {"source": "app/scripts/xml2json.js"},
+    {"source": "app/models/asyncWrappers.js"},
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/scripts/puchk.js"},
+    {"source": "app/scripts/SpinnerAnimation.js"},
+    {"source": "app/scripts/timeSince.js"},	
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {
+        "scenes": "faq",
+        "source": "app/assistants/faq-assistant.js"
+    },
+    {
+        "scenes": "first",
+        "source": "app/assistants/first-assistant.js"
+    },
+    {
+        "scenes": "about",
+        "source": "app/assistants/about-assistant.js"
+    },
+    {
+        "scenes": "fields",
+        "source": "app/assistants/fields-assistant.js"
+    },
+    {
+        "scenes": "history",
+        "source": "app/assistants/history-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    },
+    {
+        "scenes": "user",
+        "source": "app/assistants/user-assistant.js"
+    },
+    {
+        "scenes": "preview",
+        "source": "app/assistants/preview-assistant.js"
+    }
+]

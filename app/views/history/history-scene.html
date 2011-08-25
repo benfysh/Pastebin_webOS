@@ -1,0 +1,37 @@
+<div id="scrim"></div>
+<div id="statusContainer" class="statusContainer">
+  <div x-mojo-element="Spinner" id="statusSpinner"></div>
+</div>
+
+
+<div class="palm-scene" id="history">
+<div class="scene-fade-top" x-mojo-scroll-fade="top"></div>
+	<div class="palm-page-header">
+		<div class="palm-page-header-wrapper">
+			<div class="main-icon"></div>
+			<div class="title un-capitalize" x-mojo-loc="">My Pastebin</div>
+		</div>
+	</div>
+		<div class="palm-inline-error" style="display:none" id="logon_error">
+		<div class="palm-body-text">
+		</div>
+			<div class="error-message" >You need to be logged in to see your Pastebin!</div>
+		</div>
+		<div class="palm-inline-error" style="display:none" id="error_message">
+		<div class="palm-body-text">
+		</div>
+			<div class="error-message" >You have no pastes!</div>
+		</div>
+		<div class="palm-row single" style="display:none" id="logon_true">
+		<div id="listWrapper" class="palm-list main-list">  
+		<div id="MyList" x-mojo-element='List'></div>
+		</div>  	  
+		</div>
+
+		
+	
+	
+
+
+	<div class="scene-fade-bottom" x-mojo-scroll-fade="bottom"></div>
+</div>

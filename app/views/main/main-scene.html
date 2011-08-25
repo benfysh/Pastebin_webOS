@@ -1,0 +1,97 @@
+<div id="scrim"></div>
+<div id="statusContainer" class="statusContainer">
+  <div x-mojo-element="Spinner" id="statusSpinner"></div>
+</div>
+
+
+<div class="palm-scene" id="Main">
+<div class="scene-fade-top" x-mojo-scroll-fade="top"></div>	
+	<div class="palm-page-header">
+		<div class="palm-page-header-wrapper">
+			<div class="main-icon"></div>
+			<div class="title un-capitalize" x-mojo-loc="">Pastebin for webOS</div>
+		</div>
+	</div>
+	
+		<div class="palm-list">
+			<div class="palm-row first">
+			<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+				<div class="title"> 
+					<div class="label">Paste Name</div>
+					<div id="paste_name" x-mojo-element="TextField"></div>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="palm-row last">
+		  <div class="palm-row-wrapper" x-mojo-focus-highlight="true">
+		    <div class="textfield-group focused message">
+		      <div class="title">
+			<div class="label">Paste Code</div>
+			<div id="paste_code" x-mojo-element="TextField" class="paste-code"></div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		</div>
+	
+
+		<div class="palm-inline-error" style="display:none" id="error_message">
+			<div class="error-message">Paste text is required.</div>
+		</div>
+
+	
+<table 	id = "dividerOne" class="palm-divider collapsible spacer" x-mojo-touch-feedback="delayed">
+		<tbody><tr>
+			  <td class="left"></td>
+			  <td class="label un-capitalize">
+				Advanced Settings
+			  </td>
+			  <td class="line" width="100%"></td>
+			  <td><div id="butArrow1" class="palm-arrow-closed arrow_button"></div></td>
+			  <td class="right"></td>
+		</tr></tbody></table>
+
+
+	
+		<div id='drawer1' x-mojo-element="Drawer">
+	<div class="palm-list">
+		<div class="palm-row first" x-mojo-touch-feedback="delayed">
+			<div class="palm-row-wrapper">
+				<div id="paste_format" x-mojo-element="ListSelector"></div>
+			</div>
+		</div>
+		
+		<div class="palm-row" x-mojo-touch-feedback="delayed">
+			<div class="palm-row-wrapper">
+				<div id="paste_expire_date" x-mojo-element="ListSelector"></div>
+			</div>
+		</div>
+		
+
+		<div class="palm-row" x-mojo-touch-feedback="delayed">
+			<div class="palm-row-wrapper">			
+				<div x-mojo-element="ListSelector" id="paste_private"></div>
+			</div>
+		</div>	
+
+		<div class="palm-row">
+			<div class="palm-row-wrapper">
+				<div x-mojo-element="CheckBox" class="right" id="paste_settings"></div>
+				<div class="title">Remember these settings</div>
+			</div>
+		</div>
+
+		<div class="palm-row last">
+			<div class="palm-row-wrapper">
+
+			</div>
+		</div>			
+</div>
+</div>
+
+
+	<div class="scene-fade-bottom" x-mojo-scroll-fade="bottom"></div>
+</div>
+
+
